@@ -6,7 +6,7 @@ def action(event):
 
 fenetre = Tk()
 fenetre.geometry('400x250')
-fenetre.title('Redimension de la fênetre')
+fenetre.title('Redimensionnement de la fênetre')
 
 sp = Spinbox(fenetre, from_=1 , to=8)
 sp.pack()
